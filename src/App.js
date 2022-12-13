@@ -1,32 +1,26 @@
 import './App.css';
+import {data} from "./data"
 import Header from "./Header"
 import Card from "./Card"
+
+const cards = data.map(card => {
+  return (
+    <Card 
+        key={card.id}
+        {...card}
+    
+    />
+  )
+
+})
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Card 
-        title= "Mount Fuji"
-        location= "Japan"
-                googleMapsUrl= "https://goo.gl/maps/1DGM5WrWnATgkSNB8"
-                startDate= "12 Jan, 2021"
-                endDate= "24 Jan, 2021"
-                description= "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
-                imageUrl= "https://source.unsplash.com/WLxQvbMyfas"
-      
-      />
+      {cards}
     </div>
   );
 }
 
 export default App;
-
-// id: 1,
-//         title: "Mount Fuji",
-//         location: "Japan",
-//         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
-//         startDate: "12 Jan, 2021",
-//         endDate: "24 Jan, 2021",
-//         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-//         imageUrl: "https://source.unsplash.com/WLxQvbMyfas"

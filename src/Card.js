@@ -13,7 +13,7 @@ export default function Card(props) {
                     <img src={mapIcon} alt="">
                     </img>
                     <span className="country">{props.location}</span>
-                    <a href={props.googleMapsUrl}>View on Google Maps</a>
+                    <a href={props.googleMapsUrl} target="_blank">View on Google Maps</a>
                 </div>
                 <h3>{props.title}</h3>
                 <div className="dates">
