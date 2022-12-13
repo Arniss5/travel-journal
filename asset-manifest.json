@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/travel-journal/static/css/main.073c9b0a.css",
-    "main.js": "/travel-journal/static/js/main.eb771543.js",
-    "static/js/787.39019643.chunk.js": "/travel-journal/static/js/787.39019643.chunk.js",
-    "static/media/logo.svg": "/travel-journal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/travel-journal/index.html",
-    "main.073c9b0a.css.map": "/travel-journal/static/css/main.073c9b0a.css.map",
-    "main.eb771543.js.map": "/travel-journal/static/js/main.eb771543.js.map",
-    "787.39019643.chunk.js.map": "/travel-journal/static/js/787.39019643.chunk.js.map"
+    "main.css": "/my-app/static/css/main.2e731c50.css",
+    "main.js": "/my-app/static/js/main.c501d5f5.js",
+    "index.html": "/my-app/index.html",
+    "main.2e731c50.css.map": "/my-app/static/css/main.2e731c50.css.map",
+    "main.c501d5f5.js.map": "/my-app/static/js/main.c501d5f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.eb771543.js"
+    "static/css/main.2e731c50.css",
+    "static/js/main.c501d5f5.js"
   ]
 }
