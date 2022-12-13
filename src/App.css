@@ -8,6 +8,7 @@
 }
 
 body {
+    color: #2B283A;
     background-color: #FFF;
 }
 
@@ -15,6 +16,8 @@ body {
     width: 550px;
     margin: 0 auto;
 }
+
+/* HEADER */
 
 header {
     background-color: #F55A5A;
@@ -32,4 +35,54 @@ h1 {
     line-height: 18px;
     letter-spacing: -0.075em;
     margin-left: 7px;
+}
+
+/* CARD */
+
+.card {
+    font-size: 10.25px;
+    width: 90%;
+    margin: 0 auto;
+    height: 168px;
+    display: flex;
+}
+
+.card--img {
+    width: 126px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card--info {
+    padding: 10px 19px;
+}
+
+.location {
+    line-height: 12px;   
+}
+
+.country {
+    letter-spacing: 0.17em;
+    margin: 0 12px 0 4px;
+    text-transform: uppercase;
+}
+
+.location a {
+    color: #918E9B;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 7px 0 14px 0;
+}
+
+.dates {
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.descripton {
+    line-height: 150%;
 }
